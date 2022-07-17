@@ -16,7 +16,7 @@ public class BaseTest {
 public void setup(){
     System.setProperty( "webdriver.gecko.driver", "C:\\Users\\user\\Desktop\\Final Project\\TestProject\\lib\\geckodriver.exe ");
     driver = new FirefoxDriver();
-    driver.get("http://automationpractice.com/index.ph")
+    //driver.get("http://automationpractice.com/index.ph")     nije bilo potrebno?
 
     driver.manage().window().maximize();
 }
